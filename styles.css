@@ -19,9 +19,7 @@ html {
 
 #page-container {
     display: grid;
-    grid-template: 20vh 80vh / 20vw 80vw;
-
-    margin: 0 auto;
+    grid-template: 20vh 80vh / 20% 80%;
 }
 
 svg {fill: var(--maintext-color);}
