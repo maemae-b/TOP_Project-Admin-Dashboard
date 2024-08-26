@@ -260,3 +260,49 @@ aside {
     border: solid 1px grey;
     flex: 1 1 30%;
 }
+
+#announcements {margin-bottom: 2rem;}
+
+#announcements,
+#profiles-cont {
+    background-color: var(--block-color);
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+#announcements {
+    display: grid;
+    grid-area: repeat(3, 1fr) / 100%;
+}
+
+#announcements > div {
+    padding: 1rem;
+    border-bottom: solid 3px var(--background-color);
+}
+
+#announcements > div:last-child {
+    border: none;
+}
+
+#announcements p {
+    color: var(--subtext-color);
+}
+
+#profiles-cont {
+    display: grid;
+    grid-area: repeat(4, 1fr) / 1fr;
+    gap: 1.3rem;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile > div {
+    margin-left: 1rem;
+}
+
+.profile p:last-child {
+    color: var(--subtext-color);
+}
