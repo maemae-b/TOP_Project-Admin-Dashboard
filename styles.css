@@ -314,6 +314,8 @@ aside {
     border: none;
 }
 
+#announcements h3 {margin-bottom: 0.3rem;}
+
 #announcements p {
     color: var(--subtext-color);
 }
