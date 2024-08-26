@@ -264,6 +264,7 @@ h2 {font-size: 1.4rem; font-weight: 500;}
 .card > p {
     color: var(--subtext-color);
     margin-bottom: 1rem;
+    overflow: scroll;
 }
 
 .buttons-cont {
