@@ -25,7 +25,11 @@ html {
 }
 
 svg {fill: var(--maintext-color);}
-button {background-color: transparent;}
+button {
+    background-color: transparent; 
+    cursor: pointer;
+    border: none;
+}
 
 #sidebar {
     background-color: var(--main-color);
