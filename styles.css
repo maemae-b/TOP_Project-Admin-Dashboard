@@ -35,30 +35,50 @@ button {background-color: transparent;}
 
     grid-row: 1 / 3;
     grid-column: 1 / 2;
+
+    padding: 1rem;
 }
 
 #sidebar > header {
     display: flex;
+    align-items: center;
+    padding-bottom: 2rem;
+
+    font-size: 1.5rem;
 }
 
 #sidebar > header > svg {
     width: 20%;
 }
 
-ul {padding-left: 0;}
+ul {
+    padding-left: 0.5rem;
+}
+
+ul:first-of-type {
+    margin-bottom: 5rem;
+}
 
 li {
     list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
 }
 
 #sidebar svg {
     fill: var(--block-color);
-    width: 15%;
+    width: 2rem;
+
+    margin-right: 1rem;
 }
 
 a {
     text-decoration: none;
     color: var(--block-color);
+    margin-left: 0.5rem;
+
+    font-size: 1.1rem;
 }
 
 body > header {
