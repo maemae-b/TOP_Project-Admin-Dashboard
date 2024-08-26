@@ -51,7 +51,7 @@ li {
     list-style-type: none;
 }
 
-svg {
+#sidebar svg {
     fill: var(--block-color);
     width: 15%;
 }
@@ -87,7 +87,6 @@ body > header {
 }
 
 #user-notif > svg {
-    fill: var(--maintext-color);
     height: 35%;
     width: 40px;
 }
@@ -119,7 +118,6 @@ form > button {
     width: 40px;
     flex: 1 0 1;
 
-    background-color: var(--block-color);
     border: none;
 }
 
