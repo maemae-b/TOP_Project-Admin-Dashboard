@@ -336,3 +336,11 @@ aside {
 .profile p:last-child {
     color: var(--subtext-color);
 }
+
+#bottom,
+#page-container > header,
+.card,
+#announcements,
+#profile-cont {
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
