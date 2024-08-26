@@ -142,8 +142,6 @@ form > button {
     height: 40%;
     width: 40px;
     flex: 1 0 1;
-
-    border: none;
 }
 
 form svg {
@@ -210,7 +208,6 @@ form > input {
     padding: 12px 24px;
 
     background-color: var(--main-color);
-    border: none;
     border-radius: 25px;
     color: var(--block-color);
     font-family: var(--Roboto);
@@ -277,7 +274,6 @@ h2 {font-size: 1.4rem; font-weight: 500;}
 }
 
 .buttons-cont button {
-    border: none;
     width: 2rem;
     height: 100%;
 }
