@@ -268,6 +268,7 @@ h2 {font-size: 1.4rem; font-weight: 500;}
 }
 
 .buttons-cont {
+    margin-top: auto; /* ^^ in a vertically-aligned main-axis flex container, this aligns item to the end of the container */
     display: flex;
     justify-content: end;
     gap: 5%;
