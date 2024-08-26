@@ -279,12 +279,20 @@ h2 {font-size: 1.4rem; font-weight: 500;}
 
 aside {
     flex: 1 1 30%;
+
+    display: flex;
+    flex-direction: column;
+
+    padding-right: 1.5rem;
+    overflow: scroll;
 }
 
 #announcements {margin-bottom: 2rem;}
 
 #announcements,
 #profiles-cont {
+    flex: 1;
+
     background-color: var(--block-color);
     border-radius: 10px;
     padding: 1rem;
