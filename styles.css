@@ -24,6 +24,9 @@ html {
     margin: 0 auto;
 }
 
+svg {fill: var(--maintext-color);}
+button {background-color: transparent;}
+
 #sidebar {
     background-color: var(--main-color);
     color: var(--block-color);
@@ -193,7 +196,68 @@ form > input {
 
 #main-content {
     background-color: var(--background-color);
+    font-family: var(--Roboto);
 
     grid-row: 2 / 3;
     grid-column: 2 / 3;
+    display: flex;
+    padding: 2rem 0 3rem 0;
+}
+
+#your-projects {
+    flex: 1 1 70%;
+    padding: 0 1rem;
+}
+
+h1, h2, p {margin: 0;}
+
+#main-content > div > h1 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 0.7rem;
+}
+
+h2 {font-size: 1.4rem; font-weight: 500;}
+
+#cards-cont {
+    width: 100%;
+    height: 100%;
+
+    display: grid;
+    grid-template: repeat(auto-fill, 220px) / repeat(auto-fill, 380px);
+    gap: 20px;
+    padding-right: 0.5rem;
+}
+
+.card {
+    box-sizing: border-box;
+    background-color: var(--block-color);
+    border-radius: 10px;
+    padding: 2rem;
+    border-left: solid 10px var(--accent-color);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.card > p {
+    color: grey;
+    margin-bottom: 1rem;
+}
+
+.buttons-cont {
+    display: flex;
+    justify-content: end;
+    gap: 5%;
+}
+
+.buttons-cont button {
+    border: none;
+    width: 2rem;
+    height: 100%;
+}
+
+aside {
+    border: solid 1px grey;
+    flex: 1 1 30%;
 }
