@@ -110,7 +110,7 @@ body > header {
     gap: 2rem;
 }
 
-#user-notif > svg {
+#user-notif > button {
     height: 35%;
     width: 40px;
 }
