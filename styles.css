@@ -14,7 +14,7 @@ html {
   --background-color: #E2E8F0;
   --block-color: white;
   --maintext-color: black;
-  --subtext-color: #636363;
+  --subtext-color: grey;
 }
 
 #page-container {
@@ -242,7 +242,7 @@ h2 {font-size: 1.4rem; font-weight: 500;}
 }
 
 .card > p {
-    color: grey;
+    color: var(--subtext-color);
     margin-bottom: 1rem;
 }
 
