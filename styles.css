@@ -130,7 +130,7 @@ form {
     width: 65%;
     flex: 1 1 1;
     height: 100%; /* important to center vertically */
-    padding-left: 2rem;
+    margin-left: 3rem;
 
     display: flex;
     justify-content: center;
