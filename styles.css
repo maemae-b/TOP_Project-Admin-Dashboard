@@ -162,7 +162,7 @@ form > input {
     justify-content: center;
     gap: 0.3rem;
 
-    font-weight: 500;
+    font-weight: 600;
 }
 
 #greeting-cont p {
@@ -182,14 +182,15 @@ form > input {
 
 #user-btn-cont > button {
     flex: 1;
-    padding: 1rem 1.5rem;
+    padding: 12px 24px;
 
     background-color: var(--main-color);
     border: none;
     border-radius: 25px;
     color: var(--block-color);
-    font-weight: 600;
-    letter-spacing: 1px;
+    font-family: var(--Roboto);
+    font-size: 1.1rem;
+    font-weight: 500;
 }
 
 #main-content {
